@@ -9,7 +9,7 @@
     $settings = array(
         'database' => 'mysql:host=localhost;dbname=civorm',
         'user'     => 'root',
-        'password' => 'sr.32-'
+        'password' => 'password'
     );
     
     // Setup the entity manager
