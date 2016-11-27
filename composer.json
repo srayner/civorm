@@ -1,0 +1,33 @@
+{
+    "name": "srayner/civorm",
+    "description": "Simple ORM for PHP projects using PDO.",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "orm",
+        "php",
+        "pdo"
+    ],
+    
+    "authors": [
+        {
+            "name": "Steve Rayner",
+            "email": "srayner02@gmail.com",
+            "homepage": "http://www.github.com/srayner/civ",
+            "role": "Developer"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "Civrays\\Orm\\": "src/"
+        }
+    },
+    
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5"
+    }
+
+}
